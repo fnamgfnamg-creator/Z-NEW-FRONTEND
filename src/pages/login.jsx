@@ -6,8 +6,8 @@ import '../styles/login.css';
 export const Login = () => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
-    username: '',
-    password: '',
+    username: 'FADY',
+    password: 'AMIRA',
   });
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
